@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Inter:wght@100..900&family=Protest+Riot&display=swap');
+ 
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+.container{
+    
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: rgb(212, 237, 232);
+}
+.title{
+    text-align: center;
+}
+  h1{
+    font-size: 30px;
+    font-weight: 900;
+    color: #333;
+    margin-bottom:10px ;
+  }
+  p{
+    font-size: 20px;
+
+  }
+  .flex{ 
+    display: flex;
+    gap: 0px;
+    flex-wrap:wrap;
+
+    
+  }
+  .flex .colum{
+    width:  25%;
+    padding: 15px;
+  }
+   
+   .imagebox{
+     background-color: #e0dad8; 
+     background-blend-mode: multiply;
+     color: #ffffff;border-radius:15px ;
+    padding: 30px;
+    min-height:400px;
+     background-size:cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     align-items: flex-end;
+     box-shadow: 0 0 42px 0 #26262609;
+
+  }
+  .imgbox_1{
+    background-image: url(../images/houseplant-02.jpg);
+  }
+  .imgbox_2{
+    background-image: url(../images/houseplant-03.jpg);
+  }
+  .imgbox_3{
+    background-image: url(../images/houseplant-02.jpg);
+  }
+  .imgbox_4{
+    background-image: url(../images/houseplant-03.jpg);
+  }
+  .imgbox_5{
+    background-image: url(../images/houseplant-02.jpg);
+  }
+  .imgbox_6{
+    background-image: url(../images/houseplant-03.jpg);
+  }
+
+
+  .controlsystemsection{
+
+    padding:100px 0 ;
+
+  }
+
+   .coloumn_1_3{
+    width: 33.33%;
+    padding: 15px;
+   }
+   .coloumn_2_3{
+    width: 66.66%;
+    padding: 15px;
+    gap: 30px 0px;
+    justify-content: space-between;
+   }
+   .coloumn_2_2{
+    width: 100%;
+    padding: 0px;
+   }
+   .coloumn_1_2{
+    width: calc(50% - 15px);
+    padding: 0px;
+   }
+  
+ .gallary_1{
+  background-color: #818181; 
+  background-blend-mode: multiply;
+   color: #ffffff;
+   padding: 30px;
+   min-height:600px;
+   height: 100%;
+   border-radius:15px ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   box-shadow: 0 0 42px 0 #26262609;
+   background-image: url(../images/houseplant-02.jpg);
+ }
+ .gallary_2{
+  background-color: #e0dad8; 
+  background-blend-mode: multiply;
+   color: #ffffff;
+   padding: 30px;
+   min-height:300px;
+   border-radius:15px ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   box-shadow: 0 0 42px 0 #26262609;
+   background-image: url(../images/houseplant-03.jpg)
+ }
+ .gallary_3{
+  background-color: #e0dad8; 
+  background-blend-mode: multiply;
+   color: #ffffff;
+   padding: 30px;
+   min-height:200px;
+   height: 100%;
+   border-radius:15px ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   box-shadow: 0 0 42px 0 #26262609;
+   background-image: url(../images/houseplant-01.jpg)
+ }
+ .gallary_4{
+  background-color: #e0dad8; 
+  background-blend-mode: multiply;
+   color: #ffffff;
+   padding: 30px;
+   min-height:200px;
+   height: 100%;
+   border-radius:15px ;
+   background-size:cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   display: flex;
+   align-items: flex-end;
+   box-shadow: 0 0 42px 0 #26262609;
+   background-image: url(../images/houseplant-02.jpg)
+ }
